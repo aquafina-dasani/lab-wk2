@@ -14,3 +14,17 @@ ssh-keygen -t ed25519 -f ~/.ssh/wkone -C "File used for lab1"
 We connect the `wkone.pub` key to AWS as a keypair called `wkone`, and when we provision a Debian EC2 instance, we use `wkone` as the keypair for SSH.
 
 ## Part 3
+### nginx-install script
+
+![part3a.png](/img/part3a.png)
+
+---
+### document-write script
+
+![part3b.png](/img/part3b.png)
+
+---
+
+## nginx running screenshot
+
+![nginx.png](/img/nginx.png)
