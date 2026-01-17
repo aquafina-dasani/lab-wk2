@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source env-var
+
+ssh -i $LAB1SSHKEYPATH $LAB1USER@$LAB1IPADDRESS << EOF
+sudo apt update
+sudo apt install -y nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
+EOF

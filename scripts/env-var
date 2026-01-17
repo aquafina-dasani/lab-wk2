@@ -1,0 +1,3 @@
+LAB1USER="admin"
+LAB1IPADDRESS="35.92.4.149"
+LAB1SSHKEYPATH="~/.ssh/wkone"
